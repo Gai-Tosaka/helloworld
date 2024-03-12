@@ -1,9 +1,8 @@
 package com.helloworld.hello;
 
-public class helloName {
+public class HelloName {
     private String name;
-
-    public helloName(String name) {
+    public HelloName(String name) {
         this.name = name + "さん！　こんにちは！";
     }
     public String getName() {

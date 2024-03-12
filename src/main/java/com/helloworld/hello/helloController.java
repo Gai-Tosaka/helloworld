@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class helloController {
+public class HelloController {
     @GetMapping("/hello")
-    public helloName hello() {
-        return new helloName("サンタクロース");
+    public HelloName hello() {
+        return new HelloName("サンタクロース");
     }
 }
